@@ -1,0 +1,82 @@
+#include <stdio.h>
+int main(void){
+/*	int A, B, C;
+	float res;*/
+	int d;
+
+ int A = 5, B = 3, C = -12;
+ 
+   {
+	
+	   if (A>3)
+	printf("A es mayor que 3 \n");
+	else 
+	printf("A no es mayor que 3 \n");
+	
+	}
+	{
+	
+		if (A>C)
+	printf("A es mayor que C \n");
+	else 
+	printf("A no es mayor que C \n ");
+	
+	}
+	{
+		if (B!=C)
+	printf("B es deS a C \n");
+	else 
+	printf("B es igu a C \n");
+	}
+	{
+		if (A==3)
+	printf("A es igual a 3 \n");
+	else 
+	printf("A no es igual a 3 \n");
+	}
+	{
+		if (A*B==15)
+	printf("A*B es igaul a 15 \n");
+	else 
+	printf("A*B no es igual a 15 \n");
+	}
+	{
+		if (C/B<A)
+	printf("C/B es menor que A \n");
+	else 
+	printf("C sobre B no es menor que A \n");
+	}
+	{
+	    if (C/B==-10)
+	printf("C/B es igual a -10 \n");
+	else 
+	printf("C/B no es igual a-10 \n");
+	}
+	{
+		if (A+B+C==5)
+	printf("la suma es igual a 5 \n");
+	else 
+	printf("la suma no es igual a 5 \n");	
+	}
+	{
+		if (((A+B) == 8) && ((A-B) == 2))      
+	printf("la suma de A+B es igual a 8 y la resta es igual a 2 \n");
+	else 
+	printf("la suma de A+B es NO igual a 8 y la resta NO es igual a 2 \n");
+	}
+	{
+		if ((A+B == 8) || (A-B == 6))
+	printf("la suma de A+B es igual a 8 y la resta igual a 6 \n");
+	else 
+	printf("la suma de A+B es NO igual a 8 y la resta igual a 6 \n");	
+	}
+	{
+       	if (A > 3 && B > 3 && C < 3)
+	printf("Los valores son iguales a 3  \n");
+	else 
+	printf("Los valores no son igaules a 3 \n");
+	}
+	return 0;
+	
+
+}
